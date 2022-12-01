@@ -177,3 +177,14 @@ textarea{
 .swal2-popup{
   background-size: cover !important;
 }
+footer> p {
+    position: absolute;/*←絶対位置*/
+    bottom: 5px; /*下に固定*/
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    color: whitesmoke;
+    font: 1em Rajdhani;
+    text-align: center;
+    background: rgba(1, 24, 31, 0.7);
+}
