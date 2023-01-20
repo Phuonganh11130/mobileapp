@@ -154,4 +154,7 @@ footer>p {
     #msgtext{
         font-size: 20px;
     }
+    body{
+        background-position: 53%;
+    }
 }
