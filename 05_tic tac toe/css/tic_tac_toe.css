@@ -145,4 +145,7 @@ footer>p {
     .btn-container {
         padding-top: 2px;
     }
+    body{
+        background-position: 53%;
+    }
 }
