@@ -38,7 +38,7 @@ const msgtxt2 = '<p class="image"><img src ="img/tom.jpg" width=61px height=61px
 const msgtxt3 = '<p class="image"><img src ="img/jerry.jpg" width=61px height=61px></p><p class ="text animate__animated animate__lightSpeedInRight">Jerry Win!!</p>';
 const msgtxt4 = '<p class="image"><img src ="img/tom.jpg" width=61px height=61px></p><p class ="text animate__animated animate__lightSpeedInLeft">Tom Win!!</p>';
 //const msgtxt5 = '<p class="image"><img src ="img/jerry.jpg" width=61px height=61px><img src ="img/tom.jpg" width=61px height=61px></p><p class ="text animate__bounceIn">Draw!!</p>';
-const msgtxt5 = '<p class="image"><img src ="img/tomjerry.jpg" width=244px height=122px></p><p class ="text animate__bounceIn">Draw!!</p>';
+const msgtxt5 = '<p class="image"><img src ="img/tomjerry.jpg" width=122px height=61px></p><p class ="text animate__bounceIn">Draw!!</p>';
 let gameSound = ["sound/click_sound1.mp3","sound/click_sound2.mp3","sound/penwin_sound.mp3","sound/bearwin_sound.mp3","sound/draw_sound.mp3"];
 window.addEventListener("DOMContentLoaded",
     function() {
