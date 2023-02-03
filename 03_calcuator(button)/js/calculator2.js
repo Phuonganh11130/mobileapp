@@ -121,9 +121,23 @@ function calculator() {
   elementResult.innerHTML = wkTotal;
 }
 
-document.body.addEventListener('keydown',
-    event => {
-        if (event.key === 'v' && event.ctrlKey) {
-           alert("Ctrl+Vが押されました")
-        }
-    });
+document.body.addEventListener("keydown", keydownEvent, false);
+function keydownEvent(event){
+  if(event.key === "1") edit(1);
+  if(event.key === "2") edit(2);
+  if(event.key === "4") edit(4);
+  if(event.key === "5") edit(5);
+  if(event.key === "6") edit(6);
+  if(event.key === "7") edit(7);
+  if(event.key === "8") edit(8);
+  if(event.key === "9") edit(9);
+  if(event.key === "0") edit(0);
+
+  if(event.key === "+") update("+");
+  if(event.key === "-") update("-");
+  if(event.key === "*") update("*");
+  if(event.key === "/") update("/");
+
+  if(event.key === "Delete") clear();
+  if(event.key === "Enter") dspResult();
+}
