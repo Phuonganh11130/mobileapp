@@ -16,8 +16,9 @@ body{
   Meiryo,
   sans-serif;
   text-align: center;
-  background-image: url(../img/background.jpg); 
-  background-size:auto; 
+  background-image: url(../img/background2.jpg); 
+  background-size:cover; 
+  background-attachment: fixed;
 }
 
 header, main, footer, h1, h2, h3, p, div, table, .field, .btn-area, .filler01 {
