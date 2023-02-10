@@ -18,8 +18,9 @@ body{
   text-align: center;
   /*background-color:rgba(233, 168, 227, 0.6);
   background-blend-mode: soft-light;*/
-  background-image: url(../img/background.jpg); 
-  background-size:auto; 
+  background-image: url(../img/background2.jpg); 
+  background-size:cover; 
+  background-attachment: fixed;
 }
 
 header, main, footer, h1, h2, h3, p, div, table, .field, .btn-area, .filler01 {
